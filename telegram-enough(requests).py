@@ -1,7 +1,7 @@
 import requests
 from time import sleep
 from os import environ
-r = requests.get("https://github.com/hardgirisimci/sms-bombalay-c-s-/blob/main/sms.py").text
+r = requests.get("https://github.com/hardgirisimci/deneme/blob/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
